@@ -1,0 +1,391 @@
+[Mon Apr 13 17:18:39.997507 2020] [ssl:warn] [pid 11288:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 17:18:40.084459 2020] [ssl:warn] [pid 11288:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: \\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), \\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 17:18:40.156416 2020] [mpm_winnt:notice] [pid 11288:tid 624] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 13 17:18:40.156416 2020] [mpm_winnt:notice] [pid 11288:tid 624] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 13 17:18:40.156416 2020] [core:notice] [pid 11288:tid 624] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 13 17:18:40.163412 2020] [mpm_winnt:notice] [pid 11288:tid 624] AH00418: Parent: Created child process 5420
+[Mon Apr 13 17:18:41.150680 2020] [ssl:warn] [pid 5420:tid 708] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 17:18:41.225700 2020] [ssl:warn] [pid 5420:tid 708] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: \\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), \\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 17:18:41.267676 2020] [mpm_winnt:notice] [pid 5420:tid 708] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 13 17:21:37.382043 2020] [ssl:warn] [pid 10008:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 17:21:37.447002 2020] [ssl:warn] [pid 10008:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 17:21:37.481980 2020] [mpm_winnt:notice] [pid 10008:tid 656] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 13 17:21:37.481980 2020] [mpm_winnt:notice] [pid 10008:tid 656] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 13 17:21:37.481980 2020] [core:notice] [pid 10008:tid 656] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 13 17:21:37.485980 2020] [mpm_winnt:notice] [pid 10008:tid 656] AH00418: Parent: Created child process 3924
+[Mon Apr 13 17:21:38.117589 2020] [ssl:warn] [pid 3924:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 17:21:38.178551 2020] [ssl:warn] [pid 3924:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 17:21:38.211532 2020] [mpm_winnt:notice] [pid 3924:tid 680] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 13 17:25:30.011406 2020] [mpm_winnt:crit] [pid 3924:tid 680] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Apr 13 18:30:26.949035 2020] [ssl:warn] [pid 12168:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 18:30:26.998724 2020] [core:warn] [pid 12168:tid 668] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 13 18:30:27.005375 2020] [ssl:warn] [pid 12168:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 18:30:27.045352 2020] [mpm_winnt:notice] [pid 12168:tid 668] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 13 18:30:27.045352 2020] [mpm_winnt:notice] [pid 12168:tid 668] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 13 18:30:27.045352 2020] [core:notice] [pid 12168:tid 668] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 13 18:30:27.051206 2020] [mpm_winnt:notice] [pid 12168:tid 668] AH00418: Parent: Created child process 6448
+[Mon Apr 13 18:30:27.627879 2020] [ssl:warn] [pid 6448:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 18:30:27.678398 2020] [ssl:warn] [pid 6448:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 18:30:27.706382 2020] [mpm_winnt:notice] [pid 6448:tid 664] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 13 18:35:06.121671 2020] [ssl:warn] [pid 4216:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 18:35:06.174990 2020] [core:warn] [pid 4216:tid 672] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 13 18:35:06.182986 2020] [ssl:warn] [pid 4216:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 18:35:06.213769 2020] [mpm_winnt:notice] [pid 4216:tid 672] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 13 18:35:06.213769 2020] [mpm_winnt:notice] [pid 4216:tid 672] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 13 18:35:06.213769 2020] [core:notice] [pid 4216:tid 672] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 13 18:35:06.217766 2020] [mpm_winnt:notice] [pid 4216:tid 672] AH00418: Parent: Created child process 4304
+[Mon Apr 13 18:35:06.782112 2020] [ssl:warn] [pid 4304:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 13 18:35:06.831467 2020] [ssl:warn] [pid 4304:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 13 18:35:06.860447 2020] [mpm_winnt:notice] [pid 4304:tid 676] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 16 15:01:46.553944 2020] [ssl:warn] [pid 8408:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 16 15:01:46.601958 2020] [core:warn] [pid 8408:tid 628] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 16 15:01:46.608958 2020] [ssl:warn] [pid 8408:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Thu Apr 16 15:01:46.895169 2020] [mpm_winnt:notice] [pid 8408:tid 628] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Thu Apr 16 15:01:46.895169 2020] [mpm_winnt:notice] [pid 8408:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Apr 16 15:01:46.895169 2020] [core:notice] [pid 8408:tid 628] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Apr 16 15:01:46.898167 2020] [mpm_winnt:notice] [pid 8408:tid 628] AH00418: Parent: Created child process 14340
+[Thu Apr 16 15:01:47.451353 2020] [ssl:warn] [pid 14340:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 16 15:01:47.498641 2020] [ssl:warn] [pid 14340:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Thu Apr 16 15:01:47.527620 2020] [mpm_winnt:notice] [pid 14340:tid 652] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 16 15:05:59.181036 2020] [php7:error] [pid 14340:tid 1920] [client ::1:49970] script 'C:/xampp/htdocs/php/index.php' not found or unable to stat
+[Thu Apr 16 15:55:37.026292 2020] [php7:notice] [pid 14340:tid 1920] [client ::1:50230] PHP Notice:  Undefined index: mail in C:\\xampp\\htdocs\\php\\01.php on line 5, referer: http://localhost/php/login.html
+[Thu Apr 16 15:55:37.026292 2020] [php7:notice] [pid 14340:tid 1920] [client ::1:50230] PHP Notice:  Undefined index: password in C:\\xampp\\htdocs\\php\\01.php on line 6, referer: http://localhost/php/login.html
+[Thu Apr 16 15:56:28.992864 2020] [php7:notice] [pid 14340:tid 1928] [client ::1:50229] PHP Notice:  Undefined index: mail in C:\\xampp\\htdocs\\php\\01.php on line 5, referer: http://localhost/php/login.html
+[Thu Apr 16 16:17:20.009032 2020] [php7:notice] [pid 14340:tid 1912] [client ::1:50528] PHP Notice:  Undefined index: mail in C:\\xampp\\htdocs\\php\\01.php on line 12
+[Thu Apr 16 16:17:20.010030 2020] [php7:notice] [pid 14340:tid 1912] [client ::1:50528] PHP Notice:  Undefined index: Password in C:\\xampp\\htdocs\\php\\01.php on line 13
+[Fri Apr 17 10:24:22.510496 2020] [ssl:warn] [pid 1640:tid 92] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 17 10:24:22.564792 2020] [core:warn] [pid 1640:tid 92] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 17 10:24:22.571787 2020] [ssl:warn] [pid 1640:tid 92] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Fri Apr 17 10:24:22.902598 2020] [mpm_winnt:notice] [pid 1640:tid 92] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Fri Apr 17 10:24:22.902598 2020] [mpm_winnt:notice] [pid 1640:tid 92] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Apr 17 10:24:22.902598 2020] [core:notice] [pid 1640:tid 92] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Apr 17 10:24:22.905599 2020] [mpm_winnt:notice] [pid 1640:tid 92] AH00418: Parent: Created child process 1900
+[Fri Apr 17 10:24:23.561730 2020] [ssl:warn] [pid 1900:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 17 10:24:23.612697 2020] [ssl:warn] [pid 1900:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Fri Apr 17 10:24:23.657670 2020] [mpm_winnt:notice] [pid 1900:tid 680] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 10:31:43.455159 2020] [php7:notice] [pid 1900:tid 1928] [client ::1:60318] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 10:35:32.400780 2020] [php7:notice] [pid 1900:tid 1916] [client ::1:59053] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 10:36:07.734969 2020] [php7:notice] [pid 1900:tid 1928] [client ::1:59074] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 10:36:08.700771 2020] [php7:notice] [pid 1900:tid 1928] [client ::1:59074] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 10:36:10.875510 2020] [php7:notice] [pid 1900:tid 1928] [client ::1:59074] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 10:36:48.688480 2020] [php7:notice] [pid 1900:tid 1928] [client ::1:59099] PHP Notice:  Undefined index: x in C:\\xampp\\htdocs\\php\\condition.php on line 13
+[Fri Apr 17 16:53:49.966222 2020] [php7:warn] [pid 1900:tid 1916] [client ::1:56552] PHP Warning:  Use of undefined constant string - assumed 'string' (this will throw an Error in a future version of PHP) in C:\\xampp\\htdocs\\php\\condition2.php on line 20, referer: http://localhost/php/condition2.php
+[Mon Apr 20 13:51:49.821747 2020] [ssl:warn] [pid 6432:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 20 13:51:49.880703 2020] [core:warn] [pid 6432:tid 640] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 20 13:51:49.888699 2020] [ssl:warn] [pid 6432:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 20 13:51:50.215729 2020] [mpm_winnt:notice] [pid 6432:tid 640] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 20 13:51:50.215729 2020] [mpm_winnt:notice] [pid 6432:tid 640] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 20 13:51:50.215729 2020] [core:notice] [pid 6432:tid 640] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 20 13:51:50.218727 2020] [mpm_winnt:notice] [pid 6432:tid 640] AH00418: Parent: Created child process 10080
+[Mon Apr 20 13:51:50.713420 2020] [ssl:warn] [pid 10080:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 20 13:51:50.766387 2020] [ssl:warn] [pid 10080:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 20 13:51:50.795372 2020] [mpm_winnt:notice] [pid 10080:tid 636] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 21 08:59:04.474682 2020] [ssl:warn] [pid 8488:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 08:59:04.530650 2020] [core:warn] [pid 8488:tid 532] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 21 08:59:04.539642 2020] [ssl:warn] [pid 8488:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 08:59:04.849657 2020] [mpm_winnt:notice] [pid 8488:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue Apr 21 08:59:04.849657 2020] [mpm_winnt:notice] [pid 8488:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Apr 21 08:59:04.849657 2020] [core:notice] [pid 8488:tid 532] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 21 08:59:04.853657 2020] [mpm_winnt:notice] [pid 8488:tid 532] AH00418: Parent: Created child process 2696
+[Tue Apr 21 08:59:05.351348 2020] [ssl:warn] [pid 2696:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 08:59:05.407314 2020] [ssl:warn] [pid 2696:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 08:59:05.439295 2020] [mpm_winnt:notice] [pid 2696:tid 640] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 21 09:12:05.687406 2020] [ssl:warn] [pid 8532:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 09:12:05.732381 2020] [core:warn] [pid 8532:tid 640] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 21 09:12:05.739376 2020] [ssl:warn] [pid 8532:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 09:12:05.999031 2020] [mpm_winnt:notice] [pid 8532:tid 640] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue Apr 21 09:12:05.999031 2020] [mpm_winnt:notice] [pid 8532:tid 640] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Apr 21 09:12:05.999031 2020] [core:notice] [pid 8532:tid 640] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 21 09:12:06.002027 2020] [mpm_winnt:notice] [pid 8532:tid 640] AH00418: Parent: Created child process 3152
+[Tue Apr 21 09:12:06.532225 2020] [ssl:warn] [pid 3152:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 09:12:06.574637 2020] [ssl:warn] [pid 3152:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 09:12:06.601617 2020] [mpm_winnt:notice] [pid 3152:tid 644] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 21 13:08:12.353508 2020] [ssl:warn] [pid 9132:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 13:08:12.410476 2020] [core:warn] [pid 9132:tid 648] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 21 13:08:12.418473 2020] [ssl:warn] [pid 9132:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 13:08:12.691655 2020] [mpm_winnt:notice] [pid 9132:tid 648] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue Apr 21 13:08:12.691655 2020] [mpm_winnt:notice] [pid 9132:tid 648] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Apr 21 13:08:12.691655 2020] [core:notice] [pid 9132:tid 648] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 21 13:08:12.694653 2020] [mpm_winnt:notice] [pid 9132:tid 648] AH00418: Parent: Created child process 4200
+[Tue Apr 21 13:08:13.197696 2020] [ssl:warn] [pid 4200:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 13:08:13.247665 2020] [ssl:warn] [pid 4200:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 13:08:13.277649 2020] [mpm_winnt:notice] [pid 4200:tid 644] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 21 18:45:41.695890 2020] [ssl:warn] [pid 7888:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 18:45:41.758387 2020] [core:warn] [pid 7888:tid 628] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 21 18:45:41.758387 2020] [ssl:warn] [pid 7888:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 18:45:41.992758 2020] [mpm_winnt:notice] [pid 7888:tid 628] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue Apr 21 18:45:41.992758 2020] [mpm_winnt:notice] [pid 7888:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Apr 21 18:45:41.992758 2020] [core:notice] [pid 7888:tid 628] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 21 18:45:41.992758 2020] [mpm_winnt:notice] [pid 7888:tid 628] AH00418: Parent: Created child process 11192
+[Tue Apr 21 18:45:42.455584 2020] [ssl:warn] [pid 11192:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 21 18:45:42.502461 2020] [ssl:warn] [pid 11192:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Apr 21 18:45:42.536462 2020] [mpm_winnt:notice] [pid 11192:tid 636] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 22 08:07:09.266433 2020] [ssl:warn] [pid 804:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 22 08:07:09.313307 2020] [core:warn] [pid 804:tid 644] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 22 08:07:09.328931 2020] [ssl:warn] [pid 804:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Apr 22 08:07:09.579011 2020] [mpm_winnt:notice] [pid 804:tid 644] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Apr 22 08:07:09.579011 2020] [mpm_winnt:notice] [pid 804:tid 644] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Apr 22 08:07:09.579011 2020] [core:notice] [pid 804:tid 644] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 22 08:07:09.579011 2020] [mpm_winnt:notice] [pid 804:tid 644] AH00418: Parent: Created child process 3704
+[Wed Apr 22 08:07:10.063367 2020] [ssl:warn] [pid 3704:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 22 08:07:10.110243 2020] [ssl:warn] [pid 3704:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Apr 22 08:07:10.141492 2020] [mpm_winnt:notice] [pid 3704:tid 668] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 22 08:18:31.913013 2020] [php7:error] [pid 3704:tid 1928] [client ::1:56208] script 'C:/xampp/htdocs/php/test2/content.php' not found or unable to stat
+[Wed Apr 22 20:21:08.391648 2020] [ssl:warn] [pid 11872:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 22 20:21:08.443402 2020] [core:warn] [pid 11872:tid 584] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 22 20:21:08.450398 2020] [ssl:warn] [pid 11872:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Apr 22 20:21:08.775638 2020] [mpm_winnt:notice] [pid 11872:tid 584] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Apr 22 20:21:08.775638 2020] [mpm_winnt:notice] [pid 11872:tid 584] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Apr 22 20:21:08.775638 2020] [core:notice] [pid 11872:tid 584] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 22 20:21:08.778636 2020] [mpm_winnt:notice] [pid 11872:tid 584] AH00418: Parent: Created child process 12052
+[Wed Apr 22 20:21:09.377108 2020] [ssl:warn] [pid 12052:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 22 20:21:09.434044 2020] [ssl:warn] [pid 12052:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Apr 22 20:21:09.466025 2020] [mpm_winnt:notice] [pid 12052:tid 648] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 23 08:20:58.729996 2020] [ssl:warn] [pid 1076:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 23 08:20:58.778994 2020] [core:warn] [pid 1076:tid 552] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 23 08:20:58.786988 2020] [ssl:warn] [pid 1076:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Thu Apr 23 08:20:59.052639 2020] [mpm_winnt:notice] [pid 1076:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Thu Apr 23 08:20:59.052639 2020] [mpm_winnt:notice] [pid 1076:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Apr 23 08:20:59.052639 2020] [core:notice] [pid 1076:tid 552] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Apr 23 08:20:59.056640 2020] [mpm_winnt:notice] [pid 1076:tid 552] AH00418: Parent: Created child process 2104
+[Thu Apr 23 08:20:59.610275 2020] [ssl:warn] [pid 2104:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 23 08:20:59.659245 2020] [ssl:warn] [pid 2104:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Thu Apr 23 08:20:59.699221 2020] [mpm_winnt:notice] [pid 2104:tid 180] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 27 11:05:33.017562 2020] [ssl:warn] [pid 4988:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 11:05:33.069736 2020] [core:warn] [pid 4988:tid 628] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 27 11:05:33.077734 2020] [ssl:warn] [pid 4988:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 11:05:33.412977 2020] [mpm_winnt:notice] [pid 4988:tid 628] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 27 11:05:33.412977 2020] [mpm_winnt:notice] [pid 4988:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 27 11:05:33.412977 2020] [core:notice] [pid 4988:tid 628] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 27 11:05:33.414975 2020] [mpm_winnt:notice] [pid 4988:tid 628] AH00418: Parent: Created child process 6428
+[Mon Apr 27 11:05:33.875704 2020] [ssl:warn] [pid 6428:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 11:05:33.925491 2020] [ssl:warn] [pid 6428:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 11:05:33.956492 2020] [mpm_winnt:notice] [pid 6428:tid 656] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 27 15:42:47.194798 2020] [ssl:warn] [pid 12620:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 15:42:47.242801 2020] [core:warn] [pid 12620:tid 648] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 27 15:42:47.249673 2020] [ssl:warn] [pid 12620:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 15:42:47.539344 2020] [mpm_winnt:notice] [pid 12620:tid 648] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 27 15:42:47.539344 2020] [mpm_winnt:notice] [pid 12620:tid 648] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 27 15:42:47.539344 2020] [core:notice] [pid 12620:tid 648] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 27 15:42:47.542342 2020] [mpm_winnt:notice] [pid 12620:tid 648] AH00418: Parent: Created child process 10132
+[Mon Apr 27 15:42:48.066016 2020] [ssl:warn] [pid 10132:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 15:42:48.127978 2020] [ssl:warn] [pid 10132:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 15:42:48.157961 2020] [mpm_winnt:notice] [pid 10132:tid 668] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 27 19:50:55.012044 2020] [ssl:warn] [pid 10552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 19:50:55.087997 2020] [core:warn] [pid 10552:tid 640] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 27 19:50:55.104987 2020] [ssl:warn] [pid 10552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 19:50:55.549935 2020] [mpm_winnt:notice] [pid 10552:tid 640] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Mon Apr 27 19:50:55.549935 2020] [mpm_winnt:notice] [pid 10552:tid 640] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Apr 27 19:50:55.549935 2020] [core:notice] [pid 10552:tid 640] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Apr 27 19:50:55.552936 2020] [mpm_winnt:notice] [pid 10552:tid 640] AH00418: Parent: Created child process 4148
+[Mon Apr 27 19:50:56.253372 2020] [ssl:warn] [pid 4148:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 27 19:50:56.346313 2020] [ssl:warn] [pid 4148:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon Apr 27 19:50:56.395284 2020] [mpm_winnt:notice] [pid 4148:tid 640] AH00354: Child: Starting 150 worker threads.
+[Tue May 05 20:57:20.067975 2020] [ssl:warn] [pid 12628:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 05 20:57:20.120938 2020] [core:warn] [pid 12628:tid 636] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 05 20:57:20.127932 2020] [ssl:warn] [pid 12628:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue May 05 20:57:20.452779 2020] [mpm_winnt:notice] [pid 12628:tid 636] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue May 05 20:57:20.452779 2020] [mpm_winnt:notice] [pid 12628:tid 636] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue May 05 20:57:20.452779 2020] [core:notice] [pid 12628:tid 636] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue May 05 20:57:20.456776 2020] [mpm_winnt:notice] [pid 12628:tid 636] AH00418: Parent: Created child process 2840
+[Tue May 05 20:57:20.936487 2020] [ssl:warn] [pid 2840:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 05 20:57:20.986456 2020] [ssl:warn] [pid 2840:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue May 05 20:57:21.066405 2020] [mpm_winnt:notice] [pid 2840:tid 624] AH00354: Child: Starting 150 worker threads.
+[Tue May 05 20:58:25.787464 2020] [php7:error] [pid 2840:tid 1932] [client ::1:54352] script 'C:/xampp/htdocs/php/test2.php' not found or unable to stat
+[Tue Jun 02 09:09:01.756813 2020] [ssl:warn] [pid 3180:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 02 09:09:01.806127 2020] [core:warn] [pid 3180:tid 644] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 02 09:09:01.812548 2020] [ssl:warn] [pid 3180:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Jun 02 09:09:02.126036 2020] [mpm_winnt:notice] [pid 3180:tid 644] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Tue Jun 02 09:09:02.126036 2020] [mpm_winnt:notice] [pid 3180:tid 644] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 02 09:09:02.126036 2020] [core:notice] [pid 3180:tid 644] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jun 02 09:09:02.128035 2020] [mpm_winnt:notice] [pid 3180:tid 644] AH00418: Parent: Created child process 5096
+[Tue Jun 02 09:09:02.585882 2020] [ssl:warn] [pid 5096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 02 09:09:02.635298 2020] [ssl:warn] [pid 5096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Jun 02 09:09:02.664053 2020] [mpm_winnt:notice] [pid 5096:tid 556] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 08:25:21.561185 2020] [ssl:warn] [pid 10384:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:25:21.608064 2020] [core:warn] [pid 10384:tid 640] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 03 08:25:21.608064 2020] [ssl:warn] [pid 10384:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:25:21.904933 2020] [mpm_winnt:notice] [pid 10384:tid 640] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Jun 03 08:25:21.904933 2020] [mpm_winnt:notice] [pid 10384:tid 640] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 03 08:25:21.904933 2020] [core:notice] [pid 10384:tid 640] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 08:25:21.904933 2020] [mpm_winnt:notice] [pid 10384:tid 640] AH00418: Parent: Created child process 10284
+[Wed Jun 03 08:25:22.358043 2020] [ssl:warn] [pid 10284:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:25:22.420542 2020] [ssl:warn] [pid 10284:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:25:22.436168 2020] [mpm_winnt:notice] [pid 10284:tid 648] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 08:26:02.849913 2020] [ssl:warn] [pid 1164:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:26:02.896787 2020] [core:warn] [pid 1164:tid 664] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 03 08:26:02.896787 2020] [ssl:warn] [pid 1164:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:26:02.928037 2020] [mpm_winnt:notice] [pid 1164:tid 664] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Jun 03 08:26:02.928037 2020] [mpm_winnt:notice] [pid 1164:tid 664] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 03 08:26:02.928037 2020] [core:notice] [pid 1164:tid 664] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 08:26:02.928037 2020] [mpm_winnt:notice] [pid 1164:tid 664] AH00418: Parent: Created child process 6288
+[Wed Jun 03 08:26:03.365522 2020] [ssl:warn] [pid 6288:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:26:03.428022 2020] [ssl:warn] [pid 6288:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:26:03.443647 2020] [mpm_winnt:notice] [pid 6288:tid 552] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 08:46:35.299696 2020] [ssl:warn] [pid 328:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:46:35.351676 2020] [core:warn] [pid 328:tid 636] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 03 08:46:35.359688 2020] [ssl:warn] [pid 328:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:46:35.631484 2020] [mpm_winnt:notice] [pid 328:tid 636] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Jun 03 08:46:35.631484 2020] [mpm_winnt:notice] [pid 328:tid 636] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 03 08:46:35.631484 2020] [core:notice] [pid 328:tid 636] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 08:46:35.631484 2020] [mpm_winnt:notice] [pid 328:tid 636] AH00418: Parent: Created child process 1444
+[Wed Jun 03 08:46:36.350812 2020] [ssl:warn] [pid 1444:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 08:46:36.417103 2020] [ssl:warn] [pid 1444:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 08:46:36.452534 2020] [mpm_winnt:notice] [pid 1444:tid 548] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 11:42:30.505957 2020] [ssl:warn] [pid 10724:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:42:30.552831 2020] [core:warn] [pid 10724:tid 684] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 03 11:42:30.552831 2020] [ssl:warn] [pid 10724:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 11:42:30.615329 2020] [mpm_winnt:notice] [pid 10724:tid 684] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Jun 03 11:42:30.615329 2020] [mpm_winnt:notice] [pid 10724:tid 684] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 03 11:42:30.615329 2020] [core:notice] [pid 10724:tid 684] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 11:42:30.615329 2020] [mpm_winnt:notice] [pid 10724:tid 684] AH00418: Parent: Created child process 12016
+[Wed Jun 03 11:42:31.244420 2020] [ssl:warn] [pid 12016:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:42:31.295884 2020] [ssl:warn] [pid 12016:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 11:42:31.327864 2020] [mpm_winnt:notice] [pid 12016:tid 668] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 13:04:33.152137 2020] [mpm_winnt:crit] [pid 12016:tid 668] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Jun 03 13:58:56.749051 2020] [ssl:warn] [pid 6944:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 13:58:56.800017 2020] [core:warn] [pid 6944:tid 632] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 03 13:58:56.808014 2020] [ssl:warn] [pid 6944:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 13:58:56.862980 2020] [mpm_winnt:notice] [pid 6944:tid 632] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Wed Jun 03 13:58:56.862980 2020] [mpm_winnt:notice] [pid 6944:tid 632] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 03 13:58:56.862980 2020] [core:notice] [pid 6944:tid 632] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 13:58:56.865977 2020] [mpm_winnt:notice] [pid 6944:tid 632] AH00418: Parent: Created child process 9648
+[Wed Jun 03 13:58:57.364163 2020] [ssl:warn] [pid 9648:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 13:58:57.414297 2020] [ssl:warn] [pid 9648:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\\xampp\\php\\ext\\pdo_sqlite (The specified module could not be found.), C:\\xampp\\php\\ext\\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[Wed Jun 03 13:58:57.444305 2020] [mpm_winnt:notice] [pid 9648:tid 648] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 03 13:59:25.160399 2020] [php7:error] [pid 9648:tid 1924] [client ::1:61201] script 'C:/xampp/htdocs/CODEGYM/PHP_BOOTCAMP/test.php' not found or unable to stat
+[Wed Jun 03 14:30:16.708635 2020] [php7:error] [pid 9648:tid 1924] [client ::1:62049] script 'C:/xampp/htdocs/CODEGYM/index.php' not found or unable to stat, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/index.php
+[Wed Jun 03 14:30:27.106256 2020] [php7:error] [pid 9648:tid 1924] [client ::1:62055] script 'C:/xampp/htdocs/CODEGYM/index.php' not found or unable to stat, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/index.php
+[Wed Jun 03 14:30:44.915077 2020] [php7:error] [pid 9648:tid 1924] [client ::1:62064] script 'C:/xampp/htdocs/CODEGYM/index.php' not found or unable to stat
+[Wed Jun 03 14:30:50.691374 2020] [php7:error] [pid 9648:tid 1924] [client ::1:62067] script 'C:/xampp/htdocs/CODEGYM/index.php' not found or unable to stat
+[Wed Jun 03 14:47:36.905045 2020] [php7:error] [pid 9648:tid 1924] [client ::1:62502] PHP Parse error:  syntax error, unexpected '?' in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\index.php on line 15, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/index.php
+[Wed Jun 03 15:04:03.062949 2020] [php7:notice] [pid 9648:tid 1908] [client ::1:62652] PHP Notice:  Undefined variable: customerlist in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\managerClinet.php on line 30
+[Wed Jun 03 15:04:03.063948 2020] [php7:warn] [pid 9648:tid 1908] [client ::1:62652] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\managerClinet.php on line 30
+[Wed Jun 03 16:08:20.584368 2020] [php7:notice] [pid 9648:tid 1892] [client ::1:63130] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 15
+[Wed Jun 03 16:10:00.420306 2020] [php7:error] [pid 9648:tid 1892] [client ::1:63158] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 31
+[Wed Jun 03 16:10:24.536787 2020] [php7:notice] [pid 9648:tid 1892] [client ::1:63161] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 15
+[Wed Jun 03 16:21:16.941136 2020] [php7:notice] [pid 9648:tid 1892] [client ::1:63413] PHP Notice:  Undefined index: number in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 33
+[Wed Jun 03 16:32:37.374334 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63524] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 30, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:37:16.412002 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63552] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 31, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:37:16.413005 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63552] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:42:21.926153 2020] [php7:error] [pid 9648:tid 1892] [client ::1:63585] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ';' in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 22, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:42:26.496618 2020] [php7:error] [pid 9648:tid 1892] [client ::1:63585] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ';' in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 22, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:42:50.024885 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63592] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 31, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:42:50.024885 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63592] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:44:02.608871 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63597] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 31, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:44:02.608871 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63597] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:46.714685 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 50, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:46.714685 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 35, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:46.714685 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 35, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:46.714685 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:50.151547 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 50, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:50.151547 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 35, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:50.151547 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 35, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 16:56:50.152544 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63720] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:07:16.177284 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63788] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 51, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:07:16.177284 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63788] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 36, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:07:16.177284 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63788] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:14:59.341261 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63850] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 50, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:14:59.342258 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63850] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 35, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Wed Jun 03 17:14:59.342258 2020] [php7:warn] [pid 9648:tid 1892] [client ::1:63850] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\Number.php on line 16, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/Number.php
+[Thu Jun 04 08:23:33.719782 2020] [ssl:warn] [pid 9344:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 08:23:33.770450 2020] [core:warn] [pid 9344:tid 648] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 04 08:23:33.780444 2020] [ssl:warn] [pid 9344:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 08:23:34.075591 2020] [mpm_winnt:notice] [pid 9344:tid 648] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Thu Jun 04 08:23:34.075591 2020] [mpm_winnt:notice] [pid 9344:tid 648] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jun 04 08:23:34.075591 2020] [core:notice] [pid 9344:tid 648] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jun 04 08:23:34.078588 2020] [mpm_winnt:notice] [pid 9344:tid 648] AH00418: Parent: Created child process 10352
+[Thu Jun 04 08:23:34.824331 2020] [ssl:warn] [pid 10352:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 08:23:34.889289 2020] [ssl:warn] [pid 10352:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 08:23:34.920270 2020] [mpm_winnt:notice] [pid 10352:tid 532] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 04 08:31:32.948230 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:49572] PHP Notice:  Undefined index: rate in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 24, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:31:32.948230 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:49572] PHP Notice:  Undefined index: year in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 25, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:31:32.949229 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:49572] PHP Notice:  Undefined variable: money in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 29, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:21.436319 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58070] PHP Notice:  Undefined index: rate in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 24, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:21.436319 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58070] PHP Notice:  Undefined index: year in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 25, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:21.436319 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58070] PHP Notice:  Undefined variable: money in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 29, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:53.600647 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58078] PHP Notice:  Undefined index: value in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 23, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:53.600647 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58078] PHP Notice:  Undefined index: rate in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 24, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:53.600647 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58078] PHP Notice:  Undefined index: year in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 25, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:32:53.600647 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58078] PHP Notice:  Undefined variable: money in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 29, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:33:54.014126 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58084] PHP Notice:  Undefined index: value in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 23, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:33:54.014126 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58084] PHP Notice:  Undefined index: rate in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 24, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:33:54.014126 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58084] PHP Notice:  Undefined index: year in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 25, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php
+[Thu Jun 04 08:34:14.737690 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58085] PHP Notice:  Undefined variable: money in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\FutureValueCalculator.php on line 27, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/FutureValueCalculator.php?value=1
+[Thu Jun 04 09:02:49.343810 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58296] PHP Notice:  Undefined index: money in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\display_discount.php on line 16
+[Thu Jun 04 09:02:49.344812 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58296] PHP Notice:  Undefined index: percent in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\display_discount.php on line 17
+[Thu Jun 04 09:18:16.948990 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58493] PHP Notice:  Undefined index: num1 in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 25
+[Thu Jun 04 09:18:16.948990 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58493] PHP Notice:  Undefined index: num2 in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 26
+[Thu Jun 04 09:18:16.948990 2020] [php7:notice] [pid 10352:tid 1868] [client ::1:58493] PHP Notice:  Undefined index: cal in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 27
+[Thu Jun 04 09:23:55.618146 2020] [php7:warn] [pid 10352:tid 1868] [client ::1:58511] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 30, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 09:23:55.619153 2020] [php7:warn] [pid 10352:tid 1868] [client ::1:58511] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 30, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 09:36:57.257731 2020] [php7:error] [pid 10352:tid 1868] [client ::1:58594] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 76, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 09:36:59.763067 2020] [php7:error] [pid 10352:tid 1868] [client ::1:58594] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 76, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 09:37:30.266196 2020] [php7:warn] [pid 10352:tid 1868] [client ::1:58597] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 59, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 09:37:30.267192 2020] [php7:warn] [pid 10352:tid 1868] [client ::1:58597] PHP Warning:  A non-numeric value encountered in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\calculator.php on line 59, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/calculator.php
+[Thu Jun 04 13:50:17.392523 2020] [ssl:warn] [pid 8316:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 13:50:17.439396 2020] [core:warn] [pid 8316:tid 540] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 04 13:50:17.455021 2020] [ssl:warn] [pid 8316:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 13:50:17.486270 2020] [mpm_winnt:notice] [pid 8316:tid 540] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.4 configured -- resuming normal operations
+[Thu Jun 04 13:50:17.486270 2020] [mpm_winnt:notice] [pid 8316:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jun 04 13:50:17.486270 2020] [core:notice] [pid 8316:tid 540] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jun 04 13:50:17.486270 2020] [mpm_winnt:notice] [pid 8316:tid 540] AH00418: Parent: Created child process 8996
+[Thu Jun 04 13:50:18.056768 2020] [ssl:warn] [pid 8996:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 13:50:18.104733 2020] [ssl:warn] [pid 8996:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 04 13:50:18.131717 2020] [mpm_winnt:notice] [pid 8996:tid 648] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 04 14:26:21.429090 2020] [php7:error] [pid 8996:tid 1900] [client ::1:59893] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 20, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:26:21.961001 2020] [php7:error] [pid 8996:tid 1892] [client ::1:59894] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 20, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:26:22.715997 2020] [php7:error] [pid 8996:tid 1880] [client ::1:59895] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 21, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:26:29.349067 2020] [php7:error] [pid 8996:tid 1876] [client ::1:59896] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 21, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:28:21.432985 2020] [php7:error] [pid 8996:tid 1864] [client ::1:59897] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 21, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:28:21.975014 2020] [php7:error] [pid 8996:tid 1900] [client ::1:59899] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumber.php on line 20, referer: http://localhost/CODEGYM/PHP_BOOTCAMP/primenumber.php
+[Thu Jun 04 14:34:05.987462 2020] [php7:notice] [pid 8996:tid 1900] [client ::1:60003] PHP Notice:  Undefined variable: i in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\primeNumberlower100.php on line 27
+[Thu Jun 04 14:43:34.708750 2020] [php7:notice] [pid 8996:tid 1900] [client ::1:60080] PHP Notice:  Undefined index: num in C:\\xampp\\htdocs\\CODEGYM\\PHP_BOOTCAMP\\changeMoney.php on line 18
