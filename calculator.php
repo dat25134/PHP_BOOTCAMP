@@ -11,7 +11,7 @@
             padding: 0px;
         }
 
-        .kq{
+        .kq {
             border: solid 2px gray;
         }
     </style>
@@ -55,19 +55,30 @@
         $num1 = $_REQUEST['num1'];
         $num2 = $_REQUEST['num2'];
         $cal = $_REQUEST['cal'];
-        if ($cal === "+") {
-            $result = $num1 + $num2;
+        function calculator($cal,$num1,$num2){
+            if (($cal == "/") && ($num2 == 0)) {
+                throw new Exception("<div class='kq'>Không thể chia cho 0</div>");
+            }
+            if ($cal === "+") {
+                $result = $num1 + $num2;
+            }
+            if ($cal === "-") {
+                $result = $num1 - $num2;
+            }
+            if ($cal === "x") {
+                $result = $num1 * $num2;
+            }
+            if ($cal === "/") {
+                $result = $num1 / $num2;
+            }
+            return $result;
         }
-        if ($cal === "-") {
-            $result = $num1 - $num2;
+        
+        try {
+            echo "<div class='kq'><h2>Result</h2>" . $num1 . $cal . $num2 . "=" . calculator($cal,$num1,$num2) . "</div>";
+        } catch (Exception $e) {
+            echo $e->getMessage();
         }
-        if ($cal === "x") {
-            $result = $num1 * $num2;
-        }
-        if ($cal === "/") {
-            $result = $num1 / $num2;
-        }
-        echo "<div class='kq'><h2>Result</h2>" . $num1 . $cal . $num2 . "=" . $result."</div>";
     }
     ?>
 </body>
