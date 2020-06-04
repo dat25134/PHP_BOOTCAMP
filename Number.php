@@ -28,7 +28,6 @@
         }
     }
     function chuc($num){
-        
         if ($num>100){
             $checkNumber = floor(($num - floor($num/100)*100)/10);
         }else {
