@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: black;
+            background-color: pink;
         }
 
         * {
@@ -84,44 +84,12 @@
         <div class="container">
             <h1>Register</h1>
             <hr>
-
             <label for="name"><b>Full Name</b></label>
             <input type="text" placeholder="Full Name" name="name" id="name">
-            <span>
-                <?php if ($_SERVER["REQUEST_METHOD"] == 'POST') {
-                    $name = $_POST['name'];
-                    if (empty($name)) echo "Please input your name<br>";
-                }
-                ?>
-            </span>
             <label for="email"><b>Email</b></label>
             <input type="email" placeholder="Enter Email" name="email" id="email">
-            <span>
-                <?php
-                if ($_SERVER["REQUEST_METHOD"] == 'POST') {
-                    $email = $_POST['email'];
-                    if (empty($email)) {
-                        echo "Please input your email <br>";
-                    } else {
-                        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                            echo ("$email is a valid email address <br>");
-                        } else {
-                            echo ("$email is not a valid email address<br>");
-                        }
-                    }
-                }
-                ?>
-            </span>
             <label for="phone"><b>Phone Number</b></label>
             <input type="text" placeholder="Phone Number" name="phone" id="phone">
-            <span>
-                <?php
-                 if ($_SERVER["REQUEST_METHOD"] == 'POST') {
-                    $phone = $_POST['phone'];
-                    if (empty($phone)) echo "Please input your phone";
-                 }
-                ?>
-            </span>
             <hr>
             <button type="submit" class="registerbtn">Register</button>
         </div>
@@ -129,7 +97,29 @@
             <p>Already have an account? <a href="#">Sign in</a>.</p>
         </div>
         <?php
-            
+        if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $phone = $_POST['phone'];
+            $filename = "data/users.json";
+            function saveDataJSON($filename, $name, $email, $phone)
+            {
+                if (empty($name)) throw new Exception('Please input your name<br>');
+                if (empty($email)) throw new Exception('Please input your email<br>');
+                if (empty($phone)) throw new Exception('Please input your phone number<br>');
+                $contact = json_decode(file_get_contents($filename));
+                array_push($contact,[$name,$email,$phone]);
+                file_put_contents($filename, json_encode($contact), true);
+                return true;
+            }
+
+            try {
+                saveDataJSON($filename, $name, $email, $phone);
+                echo "Đăng ký thành công";
+            } catch (Exception $e) {
+                echo $e->getMessage();
+            }
+        }
         ?>
     </form>
 </body>
