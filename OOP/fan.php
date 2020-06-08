@@ -54,7 +54,7 @@ define("FAST",3);
  $fan1->setColor("yellow");
  echo $fan1->__toString();
  $fan1->setOn();
- echo "<br>" . $fan1->__toString();
+ echo "<br>" . $fan1;
  $fan2 = new Fan();
- echo $fan2->__toString();
+ echo "<br>" . $fan2;
 ?>
