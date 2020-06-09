@@ -50,5 +50,5 @@ for ($i=0;$i<10000;$i++){
 $time1->start();
 SelectionSortAscending($mang);
 $time1->end();
-echo " Thời gian để sắp xếp theo thứ tự giảm dần của 1000 số là " . $time1->getElapsedTime() . "ms"
+echo " Thời gian để sắp xếp theo thứ tự giảm dần của 10000 số là " . $time1->getElapsedTime() . "ms"
 ?>
