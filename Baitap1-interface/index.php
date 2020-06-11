@@ -20,3 +20,13 @@ echo $square1->getSide();
 $square1Resize = new ResizeSquare();
 $square1Resize->resize($square1);
 echo $square1->getSide();
+//Bài tập 2 interface
+$shape[0] =new Circle("Circle 1" , 50);
+$shape[1] =new Rectangle("Rectangle 1" , 50,10);
+$shape[2] =new Square("Square 1" , 50);
+
+foreach ($shape as $value){
+    if ($value instanceof Square){
+        $value->howToColor();
+    }
+}

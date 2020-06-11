@@ -5,6 +5,7 @@ include "Square.php";
 interface Resizeable{
     public function resize($object);
 }
+
 class ResizeCicle implements Resizeable {
     public function resize($object){
         $double =rand(1,100);

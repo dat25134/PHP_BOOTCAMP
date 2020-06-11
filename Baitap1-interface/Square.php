@@ -1,5 +1,8 @@
 <?php
-class Square
+interface Colorable{
+    public function  howToColor();
+}
+class Square implements Colorable
 {
     public $side;
     public $name;
@@ -28,5 +31,9 @@ class Square
     public function setSide($side)
     {
         $this->side = $side;
+    }
+
+    public function howToColor(){
+        echo "Color all four sides..";
     }
 }

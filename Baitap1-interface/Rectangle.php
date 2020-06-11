@@ -1,5 +1,7 @@
 <?php
-class Rectangle
+
+
+class Rectangle 
 {
     public $width;
     public $height;
