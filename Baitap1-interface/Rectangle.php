@@ -1,17 +1,16 @@
 <?php
 
-
-class Rectangle 
+include_once "Shape.php";
+class Rectangle extends Shape 
 {
     public $width;
     public $height;
-    public $name;
 
     public function __construct($name, $width,$height)
     {
         $this->width = $width;
         $this->height = $height;
-        $this->name = $name;
+        parent::__construct($name);
     }
 
     public function getName() {
@@ -38,6 +37,16 @@ class Rectangle
     public function setHeight($height)
     {
         $this->height = $height;
+    }
+
+    public function perimeter(){
+        return ($this->width + $this->height)*2;
+    }
+    public function Area(){
+        return $this->width*$this->height;
+    }
+    public function show(){
+        echo $this->name . $this->width . $this->height . $this->perimeter() . $this->Area();
     }
 }
 

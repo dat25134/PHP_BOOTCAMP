@@ -1,32 +1,97 @@
 <?php
-include "Resize.php";
+include_once "Resize.php";
+$shape =[];
 
-$cir1 = new Circle("Circle 1" , 50);
-echo $cir1->getRadius();
-$cir1Resize = new ResizeCicle();
-$cir1Resize->resize($cir1);
-echo $cir1->getRadius();
+function findShapeByName($arrShape,$shapeName){
+    foreach ($arrShape as $key => $value){
+        if ($shapeName == $value->name) {
+            return $value;
+        }
+    }
+    return "Không tìm thấy!!!";
+}
 
-$rect1 = new Rectangle("Rectangle 1" , 50, 25);
-echo "Chiều dài" . $rect1->getWidth();
-echo "Chiều rộng" . $rect1->getHeight();
-$rect1Resize = new ResizeRectangle();
-$rect1Resize->resize($rect1);
-echo "Chiều dài" . $rect1->getWidth();
-echo "Chiều rộng" . $rect1->getHeight();
+    function findMaxAreaSameShape($typeShape, $arrShape){
+        $maxArea = 0;
+        $index = 0;
+        if (strtoupper($typeShape) == "CIRCLE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Circle){
+                    if ($value->Area()>$maxArea) $maxArea = $value->Area();
+                    $index = $key;
+                }
+            }
+        }
+        if (strtoupper($typeShape) == "RECTANGLE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Rectangle){
+                    if ($value->Area()>$maxArea) $maxArea = $value->Area();
+                    $index = $key;
+                }
+            }
+        }
+        if (strtoupper($typeShape) == "SQUARE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Square){
+                    if ($value->Area()>$maxArea) $maxArea = $value->Area();
+                    $index = $key;
+                }
+            }
+        }
 
-$square1 = new Square("Square 1" , 50);
-echo $square1->getSide();
-$square1Resize = new ResizeSquare();
-$square1Resize->resize($square1);
-echo $square1->getSide();
-//Bài tập 2 interface
-$shape[0] =new Circle("Circle 1" , 50);
-$shape[1] =new Rectangle("Rectangle 1" , 50,10);
-$shape[2] =new Square("Square 1" , 50);
+        return $maxArea." là diện tích lớn nhất của " . $typeShape." ".$index;
+    }
 
-foreach ($shape as $value){
-    if ($value instanceof Square){
-        $value->howToColor();
+    function findMinAreaSameShape($typeShape, $arrShape){
+        $minArea = 0;
+        $index = 0;
+        if (strtoupper($typeShape) == "CIRCLE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Circle){
+                    if ($value->Area()<$minArea) $minArea = $value->perimeter();
+                    $index = $key;
+                }
+            }
+        }
+        if (strtoupper($typeShape) == "RECTANGLE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Rectangle){
+                    if ($value->Area()<$minArea) $minArea = $value->perimeter();
+                    $index = $key;
+                }
+            }
+        }
+        if (strtoupper($typeShape) == "SQUARE"){
+            foreach ($arrShape as $key => $value){
+                if ($value instanceof Square){
+                    if ($value->Area()<$minArea) $minArea = $value->perimeter();
+                    $index = $key;
+                }
+            }
+        }
+
+        return $minArea." là chu vi nhỏ nhất của " . $typeShape." ". $index;
+    }
+
+for ($i = 0;$i<1000;$i++){
+    $creatRand = rand(1,3);
+    switch ($creatRand){
+        case 1:
+            $name = "Circle ".$i;
+            $shape[$i] = new Circle($name,rand(1,100));
+        break;
+        case 2:
+            $name = "Rectagle ".$i;
+            $shape[$i] = new Rectangle($name, rand(1,100),rand(1,100));
+        break;
+        case 3:
+            $name = "Square ".$i;
+            $shape[$i] = new Square($name, rand(1,100));
     }
 }
+
+print_r($shape);
+
+print_r (findShapeByName($shape,"Circle 4"));
+echo findMaxAreaSameShape("RECtangle",$shape);
+echo findMinAreaSameShape("Circle",$shape);

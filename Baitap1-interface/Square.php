@@ -1,16 +1,16 @@
 <?php
+include_once "Shape.php";
 interface Colorable{
     public function  howToColor();
 }
-class Square implements Colorable
+class Square extends Shape implements Colorable
 {
     public $side;
-    public $name;
 
     public function __construct($name, $side)
     {
         $this->side = $side;
-        $this->name = $name;
+        parent::__construct($name);
     }
 
     public function getName()
@@ -35,5 +35,15 @@ class Square implements Colorable
 
     public function howToColor(){
         echo "Color all four sides..";
+    }
+    
+    public function perimeter(){
+        return $this->side*4;
+    }
+    public function Area(){
+        return $this->side*$this->side;
+    }
+    public function show(){
+        echo $this->name . $this->side . $this->perimeter() . $this->Area();
     }
 }

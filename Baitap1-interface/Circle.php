@@ -1,13 +1,13 @@
 <?php
-class Circle
+include_once "Shape.php";
+class Circle extends Shape
 {
     public $radius;
-    public $name;
 
     public function __construct($name, $radius)
     {
         $this->radius = $radius;
-        $this->name = $name;
+        parent::__construct($name);
     }
 
     public function getName() {
@@ -25,6 +25,16 @@ class Circle
     public function setRadius($radius)
     {
         $this->radius = $radius;
+    }
+
+    public function perimeter(){
+        return $this->radius*2*pi();
+    }
+    public function Area(){
+        return pow($this->radius,2)*pi();
+    }
+    public function show(){
+        echo $this->name . $this->radius . $this->perimeter() . $this->Area();
     }
 }
 ?>
