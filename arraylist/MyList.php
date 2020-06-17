@@ -72,13 +72,13 @@ class MyList {
     }
 }
 
-$ListC04H120 = new MyList();
-$ListC04H120->add("Lê Thạnh");
-$ListC04H120->add("Trần Đạt");
-$ListC04H120->add("Lân Hoàng");
-$ListC04H120->add("Thành Lê");
-$ListC04H120->insert(3,"Cu Đức");
-$ListC04H120->remove(3);
-echo $ListC04H120->get(2);
-$ListC04H120->sort();
-echo $ListC04H120->size();
+// $ListC04H120 = new MyList();
+// $ListC04H120->add("Lê Thạnh");
+// $ListC04H120->add("Trần Đạt");
+// $ListC04H120->add("Lân Hoàng");
+// $ListC04H120->add("Thành Lê");
+// $ListC04H120->insert(3,"Cu Đức");
+// $ListC04H120->remove(3);
+// echo $ListC04H120->get(2);
+// $ListC04H120->sort();
+// echo $ListC04H120->size();
