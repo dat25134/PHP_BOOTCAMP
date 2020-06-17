@@ -1,7 +1,7 @@
 <?php
-
+include_once "Resize.php";
 include_once "Shape.php";
-class Rectangle extends Shape 
+class Rectangle extends Shape implements Resizeable
 {
     public $width;
     public $height;
@@ -47,6 +47,13 @@ class Rectangle extends Shape
     }
     public function show(){
         echo $this->name . $this->width . $this->height . $this->perimeter() . $this->Area();
+    }
+
+    public function resize(){
+        $double =rand(1,100);
+        echo "$double percent";
+        $this->setWidth($this->getWidth()*$double/100);
+        $this->setHeight($this->getHeight()*$double/100);
     }
 }
 

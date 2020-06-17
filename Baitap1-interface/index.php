@@ -95,3 +95,9 @@ print_r($shape);
 print_r (findShapeByName($shape,"Circle 4"));
 echo findMaxAreaSameShape("RECtangle",$shape);
 echo findMinAreaSameShape("Circle",$shape);
+$cir4 = findShapeByName($shape,"Circle 4");
+if  ($cir4 instanceof Circle){
+    echo "Vòng tròn :" . $cir4->name . " có bán kính " . $cir4->radius. "<br>";
+    $cir4->resize();
+    echo "Sau khi risize : Vòng tròn :" . $cir4->name . " có bán kính " . $cir4->radius. "<br>";
+}

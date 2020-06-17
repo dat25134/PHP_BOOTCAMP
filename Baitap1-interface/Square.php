@@ -1,9 +1,10 @@
 <?php
+include_once "Resize.php";
 include_once "Shape.php";
 interface Colorable{
     public function  howToColor();
 }
-class Square extends Shape implements Colorable
+class Square extends Shape implements Colorable,Resizeable
 {
     public $side;
 
@@ -40,10 +41,18 @@ class Square extends Shape implements Colorable
     public function perimeter(){
         return $this->side*4;
     }
+
     public function Area(){
         return $this->side*$this->side;
     }
+
     public function show(){
         echo $this->name . $this->side . $this->perimeter() . $this->Area();
+    }
+
+    public function resize(){
+        $double =rand(1,100);
+        echo "$double percent";
+        $this->setSide($this->getSide()*$double/100);
     }
 }
