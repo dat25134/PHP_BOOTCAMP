@@ -51,4 +51,7 @@ class StopWacth{
 // SelectionSortAscending($mang);
 // $time1->end();
 // echo " Thời gian để sắp xếp theo thứ tự giảm dần của 10000 số là " . $time1->getElapsedTime() . "ms"
+$stack = [2,3,65,3,5,7,8,4];
+sort($stack);
+print_r($stack);
 ?>
