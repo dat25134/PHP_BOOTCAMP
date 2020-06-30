@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 
-<body>
+<body style="background-color: blue;">
     <h1 id='time'></h1>
+    <img src="images/logo.svg" alt="">
 </body>
 <script>
     let text = "<?php echo date("Y-M-d h:m:s");?>";
     document.getElementById('time').innerHTML = text;
+  
     
 </script>
-</html>
+</html>  
